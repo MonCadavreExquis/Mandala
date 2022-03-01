@@ -887,6 +887,23 @@ if(!ani){
   
   p.windowResized = function() {
   p.resizeCanvas(p.windowWidth, p.windowHeight);
+     if(imagesChosen){
+       button.position(p.windowWidth*0.43,0);
+     }else{
+     button.position(p.windowWidth*0.43,p.windowHeight*0.5);
+     }
+      button.size(p.windowWidth*0.15,p.windowWidth*0.02);
+      button.style('font-size', p.windowWidth*0.009 + 'px');
+    
+    
+     buttonAnimation.position(p.windowWidth*0.1,0);
+    buttonAnimation.size(p.windowWidth*0.17,p.windowWidth*0.02);
+    button.style('font-size', p.windowWidth*0.009 + 'px');
+    
+    
+     buttonCouleursPsy.position(p.windowWidth*0.7,0);
+     buttonCouleursPsy.size(p.windowWidth*0.17,p.windowWidth*0.02);
+    buttonCouleursPsy.style('font-size', p.windowWidth*0.009 + 'px');
   }
   
   };
