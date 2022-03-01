@@ -75,6 +75,7 @@ let sketchCells = function (p) {
 
   let button;
   let buttonAnimation;
+  let buttonCouleursPsy;
 
   
   let counter = 0;
