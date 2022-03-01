@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+loadingdiv { 
+  display:none; }
+
+  @font-face {
+  font-family: 'Space Mono';
+  src: url("font/SpaceMono-Bold.ttf");
+}
+
+body {
+font-family: 'Space Mono', monospace;
+}
